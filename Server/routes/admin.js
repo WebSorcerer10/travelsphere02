@@ -5,7 +5,7 @@ const User = require("../Models/user");
 const Image = require("../Models/images");
 const Agency = require("../Models/agency");
 const client = require('../utils/redis');
-const adminId = "6759815568511d5dfbbdf834";
+const adminId = "675ac7dcbea0a7db2546677f";
 
 /**
  * @swagger
@@ -183,7 +183,7 @@ router.post("/delete-post", async (req, res) => {
   try {
     const admin = await Admin.findById(adminId);
     if (admin) {
-      admin.postsDeleted.push(postId);
+      admin?.postsDeleted?.push(postId);
       await admin.save();
       const post = await Image.findByIdAndDelete(postId);
       const cacheKey = 'allPhotos4';
@@ -242,10 +242,11 @@ router.post("/unblock-user", async (req, res) => {
 
 router.post("/block-user", async (req, res) => {
   const userId = req.body.userId;
+  console.log(userId)
 
   try {
     const admin = await Admin.findById(adminId);
-
+    
     if (!admin) {
       return res.status(404).json({ error: "Admin not found" });
     }
@@ -257,7 +258,6 @@ router.post("/block-user", async (req, res) => {
       { blocked: true },
       { new: true }
     );
-
     if (!blockedUser) {
       return res.status(404).json({ error: "User not found" });
     }
@@ -276,7 +276,8 @@ router.get("/dashboard", async (req, res) => {
     const totalPosts = await Image.countDocuments();
     const totalDeletedPosts = await Admin.findOne({})
       .select("postsDeleted")
-      .then((admin) => admin.postsDeleted.length);
+      .then((admin) => admin?.postsDeleted?.length);
+    // const totalDeletedPosts=0
     const totalAgencies = await Agency.countDocuments();
 
     return res.status(200).json({

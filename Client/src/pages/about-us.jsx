@@ -15,7 +15,7 @@ const AboutUs = () => {
                                 they need to plan their trip. Our community also enables
                                 travellers to connect with others who share their passion for
                                 adventure, offering support, friendship, and a sense of
-                                belonging. WandrLust makes traveling and exploring new
+                                belonging. TravelSphere makes traveling and exploring new
                                 destinations a seamless, enjoyable, and enriching experience.
                             </p>
                         </div>
@@ -83,11 +83,8 @@ const AboutUs = () => {
                         </div>
                         <div className="col-lg-4 col-sm-6">
                             <div className="item bg-white text-center p-8 shadow-lg border border-gray-200 rounded-lg mb-8 transition duration-500 ease-in-out transform hover:bg-[#eb2168] hover:text-white">
-                                {/* <span className="icon feature_box_col_one text-yellow-500">
-                  <i className="fa fa-globe"></i>
-                </span> */}
                                 <h6 className="text-2xl font-semibold mb-2">Affordable cost</h6>
-                                <p className="text-gray-700 hover:text-white    ">
+                                <p className="text-gray-700  hover:text-white">
                                     Our website is completely free to use and offers many different functionalities like adding a post, budget tracking system, location details and other users experiences which can help you to preplan your travel needs and arrange all the facilities before hand.
                                 </p>
                             </div>

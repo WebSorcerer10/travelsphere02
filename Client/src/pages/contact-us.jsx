@@ -18,7 +18,7 @@ const ContactUs = () => {
               <h1 className="text-4xl font-semibold text-gray-800 mb-2">Contact Us</h1>
               <p className="text-gray-600">As you might expect of a company that began as a high-end interiors contractor, we pay strict attention.</p>
               <h3 className="text-xl font-semibold text-gray-800 mt-4">India</h3>
-              <p className="text-gray-600">Indian Institute of Information Technology, Sri City, Chittoor, Andhra Pradesh, 517646</p>
+              <p className="text-gray-600"> Vellore Institute of Technology , Bhopal , Madhya Pradesh 466114 </p>
             </div>
             <div>
               <input type="text" name="name" id="name" placeholder="Name" required className="w-full p-2 border border-gray-300 rounded mb-4" />

@@ -43,12 +43,12 @@ const Signin = () => {
             href="#"
             className="flex items-center mb-6 text-2xl font-bold text-[#eb2168] pt-8"
           >
-            WandrLust
+            TravelSphere
           </a>
           <div className="w-full max-w-md bg-white rounded-lg shadow-xl dark:border md:mt-0 xl:p-0 dark:bg-gray-800 dark:border-gray-700">
             <div className="p-6 space-y-4 md:space-y-6 sm:p-8">
               <h1 className="text-xl font-bold leading-tight tracking-tight text-gray-900 md:text-2xl dark:text-white">
-                Sign In to WandrLust
+                Sign In to TravelSphere
               </h1>
               <form className="space-y-4 md:space-y-6" onSubmit={submitHandler}>
                 <div>

@@ -8,7 +8,7 @@ const Footer = () => {
             <div className="flex justify-between">
                 <div className="col-md-2 col-12">
                     {/* <img src={images.logofooter} alt="logo" className="img-fluid" /> */}
-                    <div className='white text-2    xl'>Wandrlust</div>
+                    <div className='white text-2    xl'>TravelSphere</div>
                 </div>
                 <div className="col-md-8 col-12 ">
                     <ul className="navbar-footer">
@@ -24,10 +24,10 @@ const Footer = () => {
                 <div className="col-md-4 col-12">
                     <ul className="info-contact">
                         <li> <span>Contact us:</span></li>
-                        <li>Email: info@wandrlust.com</li>
-                        <li>Phone: 638-676-7908</li>
-                        <li>Address: Indian Institute of Information Technology
-                            Sri City, Andhra Pradesh 517646</li>
+                        <li>Email: info@TravelSphere.com</li>
+                        <li>Phone: 999-999-1111</li>
+                        <li>Address: Vellore Institute of Technology ,
+                            Bhopal , Madhya Pradesh 466114 </li>
                     </ul>
                 </div>
                 <div className="col-md-8 col-12">
@@ -44,7 +44,7 @@ const Footer = () => {
                 </div>
 
                 <div className="rights">
-                    <p>© 2024 Wandrlust. All Rights Reserved.</p>
+                    <p>© 2024 TravelSphere. All Rights Reserved.</p>
                     <p><a href="#" alt="Privacy Policy">Privacy Policy</a></p>
 
                 </div>

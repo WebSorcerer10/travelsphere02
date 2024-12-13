@@ -11,7 +11,7 @@ const Hero = () => {
             <div className="flex items-center mx-40 mt-12">
                 <div className="flex-col w-3/4">
                     <h1 className="title">  Navigating the globe, connecting hearts, and building bridges of shared experiences. </h1>
-                    <p className="py-4">Embark on a shared expedition, connect with like-minded explorers, and weave the vibrant threads of your global adventures with Wandrlust - the ultimate travel companion.</p>
+                    <p className="py-4">Embark on a shared expedition, connect with like-minded explorers, and weave the vibrant threads of your global adventures with TravelSphere - the ultimate travel companion.</p>
                     <div className="flex gap-4">
                         {!isUserLoggedIn && (
                         <>

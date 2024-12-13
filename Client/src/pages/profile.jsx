@@ -278,7 +278,7 @@ export default function Profile() {
                                         <div className="text-center">
                                             <p className="text-lg font-semibold mb-2 text-[#eb2168]">
                                                 Why not travelling, start travelling and sharing with
-                                                Wandrlust!
+                                                TravelSphere!
                                             </p>
                                         </div>
                                     ) : (

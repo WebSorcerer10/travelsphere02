@@ -13,6 +13,7 @@ export default function UserComponent({ user, setUsers }) {
             },
             body: JSON.stringify({ userId }),
         })
+        console.log(res)
         if (res.ok) {
             setUsers((prevUsers) => prevUsers.map((u) => {
                 if (u._id === userId) {

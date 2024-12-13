@@ -142,7 +142,7 @@ export default function Header() {
                             component="div"
                             sx={{ display: { xs: 'none', sm: 'block', fontWeight: "bold", color: "#f94566", } }}
                         >
-                            WandrLust
+                            TravelSphere
                         </Typography>
                     </Link>
                     <Box sx={{ flexGrow: 1, display: 'flex', justifyContent: 'center', gap: '4rem' }}>
